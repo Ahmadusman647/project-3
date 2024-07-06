@@ -1,0 +1,430 @@
+.dark-mode-page {
+    position: relative;
+}
+
+.dark-mode-page img {
+    max-width: 100%;
+    max-height: 100%;
+    /* justify-content: center;
+    align-items: center; */
+    display: block;
+    opacity: 0.5; 
+    
+
+
+}
+
+
+.dark-mode-page{
+    background-color:black ;
+    border-radius: 0%;
+
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Text color */
+}
+
+.text-overlay h2 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+h4  {
+    font-size: 40px;
+}
+
+
+h4 i {
+    font-size: 30px;
+}
+
+
+
+h4 span{
+   font-size: 40px;
+    color: rgb(57, 3, 252);
+}
+
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+th, td {
+    /* border: 1px solid #ddd; */
+    /* border: 1px solid white; */
+    padding: 8px;
+    text-align: left;
+    /* margin-top: 120px; */
+    height: 50px;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    
+}
+
+tbody {
+    background-color: white;
+    margin-top: 200px;
+
+}
+
+
+tr td{
+    margin-top: 120px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+
+
+
+thead tr{
+    font-size: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 17%;
+  }
+  
+  .coupon-input {
+    width: 59%;
+    /* margin-left: 100px; */
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    border: none;
+    /* border: .2rem solid #00abf0   */
+    /* display: flex; */
+  }
+  
+  .coupon-button {
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px ;
+    background-color: blue;
+    color: white;
+    border: none;
+    /* border: .2rem solid #00abf0   */
+  }
+  
+  .right-buttons {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-right: 20%;
+    
+  }
+  
+  .right-buttons button {
+    margin-left: 10px;
+    background-color: rgb(255, 31, 188);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    /* border: .2rem solid #00abf0   */
+  }
+
+
+
+  .card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+  
+.cardone{
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    margin: 20px;
+
+    width: 25%;
+    height: 70%;
+    text-align: center;
+    color: black;  
+}
+
+
+.cardtwo{
+    
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    margin: 20px;
+    width: 25%;
+    height: 70%;
+    text-align: center;
+    color: black;  
+    display: flex;
+        
+}
+
+
+.card-container .button13 {
+    background-color: blue; /* Blue color for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* border: .2rem solid #00abf0    ; */
+
+    /* border-color: #fff ; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+
+
+.card-container .card .button{
+    background-color: rgb(255, 31, 188);
+    padding-top: 10px;
+}
+
+.card-container .cardtwo button{
+    background-color: #e905d6;
+}
+
+.card-container button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.blue-card {
+    background-color: #007bff;
+}
+
+.green-card {
+    background-color: #28a745;
+}
+
+
+
+
+/* 2nd card */
+
+
+.card-containertwo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+  
+.cardthree{
+    background-color: blue;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    margin: 20px;
+    /* border: .2rem solid #00abf0    ; */
+
+    width: 25%;
+    height: 70%;
+    text-align: left;
+    color: white;  
+}
+
+
+.cardfour{
+    
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 40px;
+    margin: 20px;
+    width: 25%;
+    height: 70%;
+    text-align: left;
+    color: black;  
+    
+    
+}
+
+
+
+
+.card-containertwo button {
+    background-color: blue; /* Blue color for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* border: .2rem solid #00abf0    ; */
+
+    /* border-color: #fff ; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+
+.card-containertwo  .button16{
+    border: .2rem solid #00abf0      ;
+
+}
+
+
+.card-containertwo .cardfour button  {
+   background-color: rgb(255, 31, 188);
+
+} 
+
+
+.card-containertwo .cardfour .changeing{
+    color: rgb(255, 31, 188) ;
+    font-weight: bold;
+}
+
+/* .card-container .cardtwo button {
+    background-color: #e905d6;
+} */
+
+.card-container button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.blue-card {
+    background-color: #007bff;
+}
+
+.green-card {
+    background-color: #28a745;
+}
+
+
+
+
+/* 2nd last card */
+
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-right: 20%;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .column {
+    flex: 1;
+  }
+
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 23%;
+    cursor: pointer;
+   
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
+  .card11 {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20%;
+    
+
+  }
+
+  .product {
+    margin-bottom: 15px;
+  }
+
+  .product img {
+    max-width: 100%;
+    border-radius: 50%;
+    
+  }
+
+
+.product11 img{
+    margin-left: 27%;
+    border-radius: 50%;
+}
+
+
+
+  .product-info {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .product-price {
+    color: #007bff;
+  }
+
+  .button11 {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-left: 18%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #0056b3;
+  }
